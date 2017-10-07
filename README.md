@@ -21,7 +21,7 @@ Role Variables
 | foreman_hammer_cli_config_path | hammer cli config file path | No | /etc/hammer/cli.modules.d | - | - |
 | foreman_hammer_cli_config_path_suffix | - | No |  | - | - |
 | foreman_hammer_cli_config_refresh_cache | Check API documentation cache status on each request | No | false | - | - |
-| foreman_hammer_cli_config_request_timeout | API request timeout | No | 120 | - | Please fill the example. |
+| foreman_hammer_cli_config_request_timeout | API request timeout | No | 120 | - | - |
 | foreman_hammer_cli_config_username | hammer username | No | admin | - | - |
 | foreman_hammer_cli_config_verify_ssl | hammer config file | No | true | - | - |
 
