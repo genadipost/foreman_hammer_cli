@@ -1,4 +1,4 @@
-Role Name
+foreman_hammer_cli
 =========
 
 Ansible role to install and configure [hammer-cli](https://github.com/theforeman/hammer-cli).
