@@ -1,0 +1,4 @@
+---
+- name: 'Test hammer configuration'
+  shell: >
+    hammer -r && hammer os list

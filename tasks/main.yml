@@ -1,0 +1,9 @@
+---
+- include: install.yml
+
+- include: configure.yml
+
+- include: fetch-certificates.yml
+  when: fetch_certificates
+
+- include: test-conf.yml

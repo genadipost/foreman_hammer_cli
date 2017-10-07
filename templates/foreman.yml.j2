@@ -1,0 +1,19 @@
+:foreman:
+  # Enable/disable foreman commands
+  :enable_module: true
+
+  # Your foreman server address
+  :host: '{{ foreman_hammer_cli_config_host_url }}'
+
+  # Credentials. You'll be asked for them interactively if you leave them blank here
+  :username: '{{ foreman_hammer_cli_config_username }}'
+  :password: '{{ foreman_hammer_cli_config_password }}'
+
+  # Check API documentation cache status on each request
+  :refresh_cache: {{ foreman_hammer_cli_config_refresh_cache }}
+
+  # API request timeout. Set to -1 for no timeout
+  :request_timeout: {{ foreman_hammer_cli_config_request_timeout }}
+
+:ssl:
+  :verify_ssl: {{ foreman_hammer_cli_config_verify_ssl }}

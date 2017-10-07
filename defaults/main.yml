@@ -1,0 +1,15 @@
+---
+foreman_hammer_cli_config_path: '/etc/hammer/cli.modules.d'
+foreman_hammer_cli_config_owner: root
+foreman_hammer_cli_config_group: root
+foreman_hammer_cli_config_mode:  0640
+foreman_hammer_cli_config_path_suffix: ""
+
+foreman_hammer_cli_config_host_url: https://localhost/
+foreman_hammer_cli_config_username: admin
+foreman_hammer_cli_config_password: changeme
+foreman_hammer_cli_config_refresh_cache: 'false'
+foreman_hammer_cli_config_request_timeout: 120
+foreman_hammer_cli_config_verify_ssl: 'true'
+
+fetch_certificates: 'True'

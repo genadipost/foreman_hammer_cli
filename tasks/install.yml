@@ -1,0 +1,5 @@
+---
+- name: install foreman-hammer_cli
+  package:
+    name: tfm-rubygem-hammer_cli
+    state: present

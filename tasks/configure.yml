@@ -1,0 +1,16 @@
+---
+- name: 'Create config directory'
+  file: 
+    path={{ foreman_hammer_cli_config_path }}
+    owner={{ foreman_hammer_cli_config_owner }}
+    group={{ foreman_hammer_cli_config_group }}
+    mode=0750
+    state=directory
+
+- name: 'Render foreman config'
+  template:
+    src=foreman.yml.j2
+    dest={{ foreman_hammer_cli_config_path }}/foreman{{ foreman_hammer_cli_config_path_suffix }}.yml
+    owner={{ foreman_hammer_cli_config_owner }}
+    group={{ foreman_hammer_cli_config_group }}
+    mode={{ foreman_hammer_cli_config_mode }}
