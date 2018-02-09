@@ -5,7 +5,7 @@
 
 - name: 'Install the foreman ca certificate'
   shell: >
-     install ~/.hammer/certs/foreman1.test.local_443.pem /etc/pki/ca-trust/source/anchors/
+     install ~/.hammer/certs/{{ foreman_hammer_cli_config_host_url | urlsplit('hostname') }}_443.pem /etc/pki/ca-trust/source/anchors/
 
 - name: 'Update the system-wide list of trusted CA certificates'
   shell: >
