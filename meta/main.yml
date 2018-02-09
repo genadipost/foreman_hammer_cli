@@ -3,7 +3,7 @@ galaxy_info:
   description: Ansible role to install and configure hammer-cli
   issue_tracker_url: https://github.com/genadipost/foreman_hammer_cli/issues
   license: BSD
-  min_ansible_version: 2.3
+  min_ansible_version: 2.4
   github_branch: master
   platforms:
   - name: Fedora
