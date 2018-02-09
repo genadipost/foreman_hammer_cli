@@ -21,5 +21,3 @@ galaxy_info:
     - sat6
     - hammer
     - hammer-cli
-dependencies: 
-  - genadipost.foreman_repositories
